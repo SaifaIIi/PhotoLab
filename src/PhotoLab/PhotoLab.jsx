@@ -82,22 +82,22 @@ function PhotoLab() {
           <Button
             disabled={!cards.length}
             onClick={() => handleSort("name-a")}
-            text={"Sort by Name - A"}
+            text={"Sort by Name - Ascending"}
           />
           <Button
             disabled={!cards.length}
             onClick={() => handleSort("name-d")}
-            text={"Sort by Name - B"}
+            text={"Sort by Name - Descending"}
           />
           <Button
             disabled={!cards.length}
             onClick={() => handleSort("time-a")}
-            text={"Sort by Time - ascending"}
+            text={"Sort by Time - Ascending"}
           />
           <Button
             disabled={!cards.length}
             onClick={() => handleSort("time-d")}
-            text={"Sort by Time - descending"}
+            text={"Sort by Time - Descending"}
           />
         </div>
         {cards.length ? (
