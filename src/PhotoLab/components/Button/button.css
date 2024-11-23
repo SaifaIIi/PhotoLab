@@ -1,0 +1,16 @@
+button {
+  background-color: #007bff; /* Primary blue color */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for size */
+  border: none; /* No border */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin: 0.5rem;
+}
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+button:disabled {
+  background-color: #80baf8; /* Primary blue color */
+}

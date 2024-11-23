@@ -1,0 +1,16 @@
+.card-wrapper {
+  height: 25rem;
+  width: 17rem;
+  margin: 1rem;
+  border: 1px solid #ffffff22;
+  box-shadow: 0 7px 20px 5px #817d7d88;
+  border-radius: 0.5rem;
+}
+
+.card-wrapper .main {
+  padding: 1rem;
+}
+
+.discribtion p {
+  padding: 0.4rem 0;
+}
